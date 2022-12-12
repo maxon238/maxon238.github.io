@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Сайт "Мир музыки"</title>
+        <link rel="icon" type="image/png" href="fav.png">
+        <link rel="stylesheet" href="sfmw.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Anonymous+Pro">
+        
+    </head>
+    <body id="mw">
+        <a href="#mw"><img class="logo" src="https://ia803104.us.archive.org/30/items/podcast_a-to-z_music-world-a-to-z-episode_1000390996361/podcast_a-to-z_music-world-a-to-z-episode_1000390996361_itemimage.png" alt="Логотип сайта" width="100" height="100"></a>
+        <header>
+            <h1> Мир музыки - by Music Lovers for Music Lovers </h1>
+        </header>
+        <section class="burger"><input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+              <span></span>
+            </label>
+                <ul class="menu__box">
+                    <li><a class="menu__item" href="index.html">Новости</a></li>
+                        <li><a class="menu__item" href="interview.html">Интервью</a></li>
+                        <li><a class="menu__item" href="gallery.html">Галлерея</a></li>
+                        <li><a class="menu__item" href="contacts.html">Контакты</a></li>
+                        <li><a class="menu__item" href="https://vk.com/impartialman">Создатель сайта</a></li>
+                        <li><a class="menu__item" href="confpolicy.html">Политика конфидинциальности</a></li>
+                        <li><a class="menu__item" href="swyaz.html">Обратная связь</a></li>
+                  </ul>
+                </section> 
+        <nav>
+            <a href="index.html">Релизы</a>
+            <a href="interview.html">Интервью</a>
+            <a href="gallery.html">Галлерея</a>
+            <a href="contacts.html">Контакты</a>
+        </nav>
+        <main>
+           <section>
+               <form method="get">
+               <p><label for="name">Ваше имя: </label>
+               <input required type="text" name="name" id="name"></p>
+
+               <p><label for="number">Ваш номер телефона: </label>
+               <input pattern="^[ 0-9]+$"type="tel" name="number" id="number"maxlength="11" minlength="11"></p>
+
+               <p><label for="mail">Ваш адрес электронной почты: </label>
+               <input type="email" name="email" id="email"></p>
+
+               <p><label for="fil">Если требуется загрузите скриншот/фотографию: </label>
+               <input type="file" name="fil" id="fil"></p>
+
+               <p><label for="check">Подтвердите согласие на обработку персональных данных: </label>
+                <input required checked type="checkbox" name="check" id="check"></p>
+
+                <p>Предпочтительный способ свзяи: </p>
+
+                <p><label for="rad">Электронная почта</label>
+                <input type="radio" name="rad" id="rad">
+
+                <label for="rad">По номеру телефона</label>
+                <input type="radio" name="rad" id="rad"></p>
+                
+                <label for="about">Комментарий к обращению</label>
+                <textarea id="about" name="about" rows="2" cols="40" ></textarea>
+
+                
+                <p><label for="subm"></label>
+                <input button="Отправить форму" type="submit" name="subm" id="subm"></p>
+            </form>
+           </section>
+    </main>
+    <footer id= contact>
+            <a title ="Ссылка на чат через сервис VK "href="https://vk.com/impartialman">Создатель сайта</a>
+            <a title ="Ссылка на раздел с информацией о политике конфиденциальности"href="confpolicy.html">Политика конфидинциальности</a>
+            <a title ="Ссылка на форму для обратной связи"href="swyaz.html">Обратная связь</a>
+    </footer>
+    </body>
+</html>
