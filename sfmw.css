@@ -119,8 +119,8 @@ address a:hover{
      visibility: hidden;
      display:none
  }
- @media all and (max-width: 900px){
-     nav{visibility: hidden;}
+ @media all and (max-width: 1325px){
+     nav{visibility: hidden;
      .logo{visibility: hidden;}
      footer{visibility:hidden;}
      *{font-size: x-small;}
