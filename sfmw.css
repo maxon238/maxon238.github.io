@@ -119,7 +119,7 @@ address a:hover{
      visibility: hidden;
      display:none
  }
- @media all and (max-width: 900px){
+ @media all and (max-width: 1300px){
      nav{visibility: hidden;}
      .logo{visibility: hidden;}
      footer{visibility:hidden;}
